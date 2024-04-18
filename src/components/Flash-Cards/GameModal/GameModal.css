@@ -1,0 +1,11 @@
+.gameModalFooter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.gameModalBody {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: larger;
+}

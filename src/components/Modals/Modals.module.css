@@ -1,0 +1,79 @@
+.modal {
+  display: flex;
+  flex-direction: column;
+}
+
+.modal .section {
+  display: flex;
+}
+
+.modalcontent .left {
+  background-image: url('/assets/modal-content-left.png');
+}
+
+.modalcontent .right {
+  background-image: url('/assets/modal-content-right.png');
+}
+
+.modalcontent .center {
+  background-color: #ead4aa;
+  padding: 20px;
+}
+
+.modal .left,
+.modal .right {
+  width: 32px;
+}
+
+.modal .center {
+  flex: 1;
+}
+
+.modalheader,
+.modalfooter {
+  height: 32px;
+}
+
+.modalheader .left {
+  background-image: url('/assets/modal-header-left.png');
+}
+
+.modalheader .right {
+  background-image: url('/assets/modal-header-right.png');
+}
+
+.modalheader .center {
+  background-image: url('/assets/modal-header-center.png');
+}
+
+.modalfooter .left {
+  background-image: url('/assets/modal-footer-left.png');
+}
+
+.modalfooter .right {
+  background-image: url('/assets/modal-footer-right.png');
+}
+
+.modalfooter .center {
+  background-image: url('/assets/modal-footer-center.png');
+}
+
+.modal .controls {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.modal .close {
+  background: none;
+  box-shadow: none;
+  outline: none;
+  border: none;
+  width: 32px;
+  height: 32px;
+  background-image: url('/assets/close.png');
+}
+
+.modal .close:active {
+  background-image: url('/assets/close-active.png');
+}

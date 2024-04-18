@@ -1,0 +1,15 @@
+.container {
+    text-align: center;
+    background-color: #EAD4AA;
+    margin: auto;
+    font-size: 25px;
+    width: auto;
+    max-width: 1400px;
+    max-height: 600px;
+    height: auto;
+    padding: 5px;
+  }
+  
+.button {
+    width: 100px;
+}

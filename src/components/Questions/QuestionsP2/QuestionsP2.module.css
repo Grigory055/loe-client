@@ -1,0 +1,61 @@
+@font-face {
+  font-family: 'pixel';
+  src: url('/fonts/font.ttf');
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.question_modal {
+  border: 2px solid rgb(179, 169, 87);
+  flex-direction: column;
+  font-family: pixel;
+  font-size: 17px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 800px;
+  height: 600px;
+  background-image: url('/components/p2modal.jpg');
+  border-radius: 20px;
+  color: rgb(44, 2, 42);
+}
+
+.modal_btn {
+  background-color: unset;
+  border: none;
+  background-image: url('/components/start_btn.gif');
+  background-size: auto;
+  cursor: pointer;
+}
+.btn_img {
+  height: 50px;
+  border: 3px solid rgb(16, 134, 24);
+}
+h2 {
+  max-width: 500px;
+}
+
+.answers {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+}
+.modal_btn_answer {
+  background-color: unset;
+  border: none;
+  font-family: pixel;
+  height: 30px;
+  width: 500px;
+  font-size: 17px;
+  cursor: pointer;
+  color: rgb(6, 38, 75);
+  text-align: start;
+  display: flex;
+  /* flex-direction: column; */
+  align-items: flex-start;
+}

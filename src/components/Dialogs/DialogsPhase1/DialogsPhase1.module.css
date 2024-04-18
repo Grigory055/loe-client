@@ -1,0 +1,28 @@
+.container {
+  text-align: center;
+  margin: auto;
+  font-size: 25px;
+  min-width: 700px;
+  max-width: 930px;
+  width: auto;
+  padding: 15px;
+}
+
+.button {
+  width: 100px;
+}
+
+/* .button_wrapper {
+  height: 300px;
+  padding: 50px;
+  border: 1px solid grey;
+  box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  position: relative;
+} */
+.buttons_div {
+  display: flex;
+  align-items: center;
+  margin-left: 23%;
+  gap: 100px;
+}

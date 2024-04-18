@@ -1,0 +1,33 @@
+.container {
+  width: 600px;
+  height: 400px;
+  text-align: center;
+}
+
+.characters {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px 0;
+}
+
+.male {
+  background-image: url('/character-male-inactive.png');
+  width: 200px;
+  height: 285px;
+  cursor: pointer;
+}
+
+.female {
+  background-image: url('/character-female-inactive.png');
+  width: 200px;
+  height: 285px;
+  cursor: pointer;
+}
+
+.male:hover {
+  background-image: url('/character-male.png');
+}
+
+.female:hover {
+  background-image: url('/character-female.png');
+}
